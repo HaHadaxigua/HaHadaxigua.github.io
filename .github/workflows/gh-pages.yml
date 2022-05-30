@@ -18,10 +18,10 @@ jobs:
 
       - name: Redirect
         run: |
-          echo '<meta http-equiv="refresh" content="0;url=HaHadaxigua.github.io/">' > target/doc/hahadaxigua/index.html
+          echo '<meta http-equiv="refresh" content="0;url=hahadaxigua/">' > target/doc/hahadaxigua/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./target/doc/hahadaxigua
+          publish_dir: ./target/doc
