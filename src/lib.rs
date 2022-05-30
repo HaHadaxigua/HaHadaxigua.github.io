@@ -15,7 +15,7 @@
 /// Bachelor of BNetwork Engineering from 2017 to 2021, in Nantong University, China
 pub mod education {}
 
-/// Junior Golang backend developer in Shanghai/China
+/// Junior Golang backend developer in Shanghai, China
 pub mod current {}
 
 // Experience of Project
@@ -29,7 +29,9 @@ macro_rules! port_forward_tool {
 
 /// A configuration generator which includes a type-system.
 /// xxx
+///
 /// xxx
+///
 /// xxx
 #[macro_export]
 macro_rules! configuration_generator {
@@ -38,7 +40,9 @@ macro_rules! configuration_generator {
 
 /// A background service for cluster setup.
 /// xxx
+///
 /// xxx
+///
 /// xxx
 #[macro_export]
 macro_rules! cluster_configure_tool {
@@ -48,19 +52,20 @@ macro_rules! cluster_configure_tool {
 
 // Technical skills
 
-/// Ubuntu, Darwin.
-pub const OS: () = ();
+/// Ubuntu, Darwin
+pub const MY_FAVORITE_OS: () = ();
 
-/// Golang, Rust, Java.
+/// Golang, Rust, Java
 pub const PROGRAMMING_LANGUAGES: () = ();
 
-/// Chinese(5.Native) English (3. Minimum Professional Proficiency).
+/// Chinese(5.Native), English (3. Minimum Professional Proficiency)
 pub const SPOKEN_LANGUAGES: () = ();
 
 /// Git, Docker
 pub const TECHNOLOGIES: () = ();
 
 // Personal traits
+/// Personal Description
 
 pub trait Autodidact {}
 
