@@ -1,4 +1,4 @@
-//! Hi, my name is Aden, a backend developer in Shanghai/Chain, who had a big
+//! Hi, my name is Aden, a backend developer in Shanghai/China, who had a big
 //! interest in technology, digital products.
 //!
 //! I have been using Golang as my main programming-language for two years, and
