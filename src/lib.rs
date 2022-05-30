@@ -50,6 +50,26 @@ macro_rules! cluster_configure_tool {
 }
 
 
+/// A set of gopher-lua module which used to simplify Lua usage.
+/// Gopher-lua is a Lua implementation of Golang.
+///
+///
+#[macro_export]
+macro_rules! gopher_lua_tools {
+    () => {};
+}
+
+
+/// Golang code generator for reducing duplicated work that let
+/// a set of struct to implement amount of interface.
+///
+///
+#[macro_export]
+macro_rules! golang_code_generator {
+    () => {};
+}
+
+
 // Technical skills
 
 /// Ubuntu, Darwin
@@ -58,14 +78,19 @@ pub const MY_FAVORITE_OS: () = ();
 /// Golang, Rust, Java
 pub const PROGRAMMING_LANGUAGES: () = ();
 
+/// Git, Docker, Kubernetes
+pub const TECHNOLOGIES: () = ();
+
+/// Badger, Redis, MySQL
+pub const DATABASES: () = ();
+
 /// Chinese(5.Native), English (3. Minimum Professional Proficiency)
 pub const SPOKEN_LANGUAGES: () = ();
 
-/// Git, Docker
-pub const TECHNOLOGIES: () = ();
-
 // Personal traits
-/// Personal Description
+/// Personal
+///
+///
 
 pub trait Autodidact {}
 
